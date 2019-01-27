@@ -20,7 +20,7 @@ try {
 try {
   // your code
 } catch (e) {
-  __elog.push(e) // this babel plugin will add this line auto.
+  __elog.push(e) // this babel plugin will add this line automatic.
   // your exception handler code
 }
 ```
