@@ -1,4 +1,4 @@
-# babel-plugin-catch-log
+# @qnpm/babel-plugin-catch-log
 这个插件可以自动帮你收集异常到数组：`window.__elog`中。
 
 
@@ -28,7 +28,7 @@ try {
 ## Installation
 
 ```sh
-$ npm install babel-plugin-catch-log
+$ npm install @qnpm/babel-plugin-catch-log
 ```
 
 ## Usage
@@ -39,20 +39,20 @@ $ npm install babel-plugin-catch-log
 
 ```json
 {
-  "plugins": ["catch-log"]
+  "plugins": ["@qnpm/babel-plugin-catch-log"]
 }
 ```
 
 ### Via CLI
 
 ```sh
-$ babel --plugins catch-log script.js
+$ babel --plugins @qnpm/babel-plugin-catch-log script.js
 ```
 
 ### Via Node API
 
 ```javascript
 require("babel-core").transform("code", {
-  plugins: ["catch-log"]
+  plugins: ["@qnpm/babel-plugin-catch-log"]
 });
 ```
