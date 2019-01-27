@@ -1,5 +1,5 @@
 # babel-plugin-catch-log
-
+这个插件可以自动帮你收集异常到数组：`window.__elog`中。
 
 
 ## Example
@@ -7,15 +7,22 @@
 **In**
 
 ```js
-// input code
+try {
+  // your code
+} catch (e) {
+  // your exception handler code
+}
 ```
 
 **Out**
 
 ```js
-"use strict";
-
-// output code
+try {
+  // your code
+} catch (e) {
+  __elog.push(e) // this babel plugin will add this line auto.
+  // your exception handler code
+}
 ```
 
 ## Installation
