@@ -15,7 +15,7 @@ describe('', () => {
       const fixtureDir = path.join(fixturesDir, caseName);
       const actualPath = path.join(fixtureDir, 'actual.js');
       const actual = transformFileSync(actualPath).code;
-
+      return console.log(actual)
       const expected = fs.readFileSync(
           path.join(fixtureDir, 'expected.js')
       ).toString();
