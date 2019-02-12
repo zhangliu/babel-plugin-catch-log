@@ -2,7 +2,7 @@
   "version": "1.0.3",
   "description": "",
   "name": "babel-plugin-catch-log",
-  "repository": "",
+  "repository": "https://github.com/zhangliu/babel-plugin-catch-log.git",
   "author": "zhangliu <zhangliuge@yeah.net>",
   "main": "lib/index.js",
   "devDependencies": {
