@@ -1,8 +1,8 @@
 {
   "version": "1.0.3",
   "description": "",
-  "name": "@qnpm/babel-plugin-catch-log",
-  "repository": "http://gitlab.corp.qunar.com/yunnian.zhang/babel-plugin-catch-log.git",
+  "name": "babel-plugin-catch-log",
+  "repository": "",
   "author": "zhangliu <zhangliuge@yeah.net>",
   "main": "lib/index.js",
   "devDependencies": {
